@@ -17,4 +17,16 @@ object Sixth {
     }
     result
   }
+  
+  /*public static int XorAllBits(uint value)
+  {
+    var result = 0;
+    while (value != 0)
+    {
+      result ^= (int)value & 1;
+      value >>= 1;
+    }
+    return result;
+  }*/
+  
 }
